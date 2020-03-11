@@ -1,5 +1,5 @@
 {
-  "name": "serverless-certificate-creator",
+  "name": "@deep-security/serverless-certificate-creator",
   "version": "1.3.0",
   "description": "creates a certificate that can be used for custom domains for your api gateway",
   "main": "index.js",
@@ -18,10 +18,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/schwamster/serverless-certificate-creator.git"
+    "url": "git+https://github.com/deep-security/serverless-certificate-creator.git"
   },
   "bugs": {
-    "url": "https://github.com/schwamster/serverless-certificate-creator/issues"
+    "url": "https://github.com/deep-security/serverless-certificate-creator/pulls"
   },
-  "homepage": "https://github.com/schwamster/serverless-certificate-creator#readme"
+  "homepage": "https://github.com/deep-security/serverless-certificate-creator#readme"
 }

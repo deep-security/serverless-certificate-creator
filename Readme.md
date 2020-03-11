@@ -9,13 +9,16 @@
 
 # Table of Contents
 
+- [serverless-certificate-creator](#serverless-certificate-creator)
+- [Table of Contents](#table-of-contents)
 - [Description](#description)
 - [Serverless Framework](#serverless-framework)
 - [Usage Requirements](#usage-requirements)
 - [Usage](#usage)
 - [Combine with serverless-domain-manager](#combine-with-serverless-domain-manager)
-  * [Examples](#examples)
-- [License](#license)
+  - [Examples](#examples)
+    - [Reference Certificate Arn via variableResolvers](#reference-certificate-arn-via-variableresolvers)
+    - [License](#license)
 
 # Description
 
@@ -132,8 +135,8 @@ Open serverless.yml and add the following:
 
 Now you can run:
 
-        serverless create-cert
-        serverless create_domain
+        serverless deploy, and the certificate will be created
+
 
 Please make sure to check out the complete sample project [here](https://github.com/schwamster/serverless-certificate-creator/tree/master/examples/certificate-creator-example).
 
