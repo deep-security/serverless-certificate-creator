@@ -591,6 +591,12 @@ class CreateCertificatePlugin {
 
   getCertificateProperty(src) {
     this.initializeVariables();
+    if (!this.enabled) {
+      this.serverless.cli.log(
+        "Serverless Certificate Plugin disabled. Returning empty string."
+      );
+      return "";
+    }
     let [s, domainName, property] = src.split(":");
     return this.listCertificates()
       .then(({ CertificateSummaryList }) => {
